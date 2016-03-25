@@ -17,16 +17,20 @@
   <name>Google Guice - Extensions</name>
 
   <modules>
+<!--
     <module>assistedinject</module>
     <module>grapher</module>
     <module>jmx</module>
     <module>jndi</module>
     <module>multibindings</module>
+-->
     <module>persist</module>
+<!--
     <module>servlet</module>
     <module>spring</module>
     <module>struts2</module>
     <module>throwingproviders</module>
+-->
 <!--
  |  not yet promoted...
 - -
@@ -47,6 +51,7 @@
     <!--
      | Some extension tests depend on the core tests
     -->
+<!--
     <dependency>
       <groupId>com.google.inject</groupId>
       <artifactId>guice</artifactId>
@@ -54,6 +59,7 @@
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
+-->
   </dependencies>
 
   <build>
