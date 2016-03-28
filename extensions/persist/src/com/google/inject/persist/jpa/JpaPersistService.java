@@ -46,9 +46,9 @@ class JpaPersistService implements Provider<EntityManager>, UnitOfWork, PersistS
   }
 
   public EntityManager get() {
-    if (!isWorking()) {
-      begin();
-    }
+    // if (!isWorking()) {
+    // begin();
+    // }
 
     EntityManager em = entityManager.get();
     Preconditions.checkState(null != em, "Requested EntityManager outside work unit. "
