@@ -9,6 +9,7 @@
     <version>3.0-SNAPSHOT</version>
   </parent>
 
+  <groupId>lisb.com.google.inject.extensions</groupId>
   <artifactId>guice-persist</artifactId>
 
   <name>Google Guice - Extensions - Persist</name>
